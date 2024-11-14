@@ -13,7 +13,6 @@ ensure
 joblib
 types-PyYAML
 scipy
-Flask
-Flask-Cors
+streamlit
 gdown
 # -e .
