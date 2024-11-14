@@ -1,8 +1,9 @@
-from src.entity.config_entity import DataIngestionConfig,PrepareBaseModelConfig,TrainingConfig
+from src.entity.config_entity import DataIngestionConfig,PrepareBaseModelConfig,TrainingConfig,EvaluationConfig
 import os
 from src.constants import *
 from src.utils.utlis import read_yaml,create_directories
-
+from src.exceptions.expection import CustomException
+import sys
 
 class ConfigManager:
     def __init__(self,config_file=CONFIG_FILE_PATH,
@@ -67,3 +68,16 @@ class ConfigManager:
         )
 
         return training_config
+    
+
+    def eval_config(self):
+      
+        eval_config=EvaluationConfig(
+            model_path="artifacts/training/model.h5",
+            train_data="artifacts/data_ingestion/kidney-ct-scan-image",
+            mlflow_uri='https://dagshub.com/AIAkashMukherjee/Kidney-Disease.mlflow',
+            params=self.params,
+            params_image_size=self.params.IMAGE_SIZE,
+            params_batch_size=self.params.BATCH_SIZE
+        )    
+        return eval_config

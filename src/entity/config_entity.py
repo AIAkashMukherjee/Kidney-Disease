@@ -32,3 +32,12 @@ class TrainingConfig:
     params_is_augmentation: bool
     params_image_size: list
     params_learning_rate:float
+
+@dataclass(frozen=True)
+class EvaluationConfig:
+    model_path:Path
+    train_data:Path
+    params:dict
+    mlflow_uri: str
+    params_image_size: list
+    params_batch_size: int    

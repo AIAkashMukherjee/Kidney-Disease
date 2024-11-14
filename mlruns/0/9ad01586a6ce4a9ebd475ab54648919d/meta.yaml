@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/akashmukherjee/Programming/Practise%20ML/Kidney_Disease/mlruns/0/9ad01586a6ce4a9ebd475ab54648919d/artifacts
+end_time: 1731557904922
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ad01586a6ce4a9ebd475ab54648919d
+run_name: unleashed-robin-661
+run_uuid: 9ad01586a6ce4a9ebd475ab54648919d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731557900224
+status: 3
+tags: []
+user_id: akashmukherjee

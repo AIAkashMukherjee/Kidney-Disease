@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/akashmukherjee/Programming/Practise%20ML/Kidney_Disease/mlruns/0/86bda245ac7b4bde9273627a2d7f727a/artifacts
+end_time: 1731557645260
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86bda245ac7b4bde9273627a2d7f727a
+run_name: rare-stork-350
+run_uuid: 86bda245ac7b4bde9273627a2d7f727a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731557641192
+status: 3
+tags: []
+user_id: akashmukherjee

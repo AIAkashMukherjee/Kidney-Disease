@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/akashmukherjee/Programming/Practise%20ML/Kidney_Disease/mlruns/0/80850e38f7bc49b4aa96f726ced2c859/artifacts
+end_time: 1731559748839
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 80850e38f7bc49b4aa96f726ced2c859
+run_name: tasteful-mole-190
+run_uuid: 80850e38f7bc49b4aa96f726ced2c859
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731559744497
+status: 3
+tags: []
+user_id: akashmukherjee

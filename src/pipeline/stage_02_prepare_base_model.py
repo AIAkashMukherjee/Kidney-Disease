@@ -1,8 +1,9 @@
 from src.config.configuration import ConfigManager
 from src.components.prepare_base_model import PrepareBaseModel
 from src.logger.custom_logging import logger
-from src.exceptions.expection import CustomException
 import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 
 STAGE_NAME = "Prepare Base Model stage"

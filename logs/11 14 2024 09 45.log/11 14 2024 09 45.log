@@ -1,0 +1,39 @@
+[ 2024-11-14 09:45:58,294 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-11-14 09:45:58,295 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 09:45:58,295 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 09:45:58,295 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 09:45:58,295 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts/data_ingestion
+[ 2024-11-14 09:45:58,295 ] 18 src.logger.custom_logging - INFO - Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[ 2024-11-14 09:46:11,111 ] 24 src.logger.custom_logging - INFO - Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[ 2024-11-14 09:46:11,486 ] 15 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-11-14 09:46:11,486 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Base Model stage started <<<<<<
+[ 2024-11-14 09:46:11,486 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 09:46:11,487 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 09:46:11,487 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 09:46:11,487 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts/prepare_base_model
+[ 2024-11-14 09:46:11,712 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-14 09:46:11,765 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-14 09:46:11,801 ] 15 src.logger.custom_logging - INFO - >>>>>> stage Base Model stage completed <<<<<<
+
+x==========x
+[ 2024-11-14 09:46:11,801 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage started <<<<<<
+[ 2024-11-14 09:46:11,801 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 09:46:11,802 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 09:46:11,802 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 09:46:11,802 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts/training
+[ 2024-11-14 09:46:11,876 ] 256 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-14 09:48:10,785 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-14 09:48:10,821 ] 15 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x
+[ 2024-11-14 09:48:10,821 ] 12 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage started <<<<<<
+[ 2024-11-14 09:48:10,823 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 09:48:10,824 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 09:48:10,824 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 09:48:10,897 ] 256 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-14 09:48:20,126 ] 66 src.logger.custom_logging - INFO - json file saved at: scores.json
+[ 2024-11-14 09:48:24,923 ] 15 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x
