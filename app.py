@@ -6,9 +6,6 @@ from src.pipeline.prediction_pipeline import PredictionPipeline  # Assuming your
 # Streamlit interface
 st.title('Kidney Tumor Detection')
 
-st.write("""
-    Upload a CT scan image to predict if it contains a tumor or not.
-""")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose a CT scan image", type=["jpg", "jpeg", "png"])
