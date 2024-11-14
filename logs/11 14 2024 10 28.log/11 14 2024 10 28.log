@@ -1,0 +1,9 @@
+[ 2024-11-14 10:28:47,243 ] 32 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage started <<<<<<
+[ 2024-11-14 10:28:47,244 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 10:28:47,244 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 10:28:47,244 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 10:28:47,359 ] 256 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-14 10:28:56,465 ] 66 src.logger.custom_logging - INFO - json file saved at: scores.json
+[ 2024-11-14 10:29:00,615 ] 35 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x

@@ -1,0 +1,30 @@
+[ 2024-11-14 10:24:23,384 ] 28 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage started <<<<<<
+[ 2024-11-14 10:24:23,385 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 10:24:23,385 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 10:24:23,385 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 10:24:23,385 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts/prepare_base_model
+[ 2024-11-14 10:24:23,605 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-14 10:24:23,653 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-14 10:24:23,692 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage completed <<<<<<
+
+x==========x
+[ 2024-11-14 10:24:35,736 ] 28 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage started <<<<<<
+[ 2024-11-14 10:24:35,737 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 10:24:35,738 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 10:24:35,738 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 10:24:35,738 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts/prepare_base_model
+[ 2024-11-14 10:24:35,962 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-14 10:24:36,009 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-14 10:24:36,048 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage completed <<<<<<
+
+x==========x
+[ 2024-11-14 10:24:38,758 ] 32 src.logger.custom_logging - INFO - >>>>>> stage Model Training stage started <<<<<<
+[ 2024-11-14 10:24:38,758 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 10:24:38,759 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 10:24:38,759 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 10:24:38,759 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts/training
+[ 2024-11-14 10:24:38,879 ] 256 absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2024-11-14 10:26:35,716 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2024-11-14 10:26:35,758 ] 35 src.logger.custom_logging - INFO - >>>>>> stage Model Training stage completed <<<<<<
+
+x==========x

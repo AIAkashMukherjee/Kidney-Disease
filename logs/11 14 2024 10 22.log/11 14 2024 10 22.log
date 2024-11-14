@@ -1,0 +1,10 @@
+[ 2024-11-14 10:22:41,916 ] 32 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-11-14 10:22:41,918 ] 32 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-11-14 10:22:41,919 ] 32 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-11-14 10:22:41,919 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-11-14 10:22:41,919 ] 52 src.logger.custom_logging - INFO - created directory at: artifacts/data_ingestion
+[ 2024-11-14 10:22:41,919 ] 18 src.logger.custom_logging - INFO - Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[ 2024-11-14 10:22:48,557 ] 24 src.logger.custom_logging - INFO - Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[ 2024-11-14 10:22:48,797 ] 35 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
